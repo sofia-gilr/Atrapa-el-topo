@@ -13,3 +13,13 @@ function cuadradoazar {
     posicionalazar.classList.add("topo");
     posiciontopo.posicionalazar.Id
 }
+
+cuadrado.forEach (identificador => {
+  identificador.addEventListener ("click"() => {
+if(identificador.Id === posiciontopo) {
+resultado = resultado +1;
+puntaje.textContent = resultado;
+posiciontopo= null;
+}
+})
+})
